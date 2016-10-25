@@ -1,0 +1,110 @@
+\documentclass[a4paper]{article}
+\usepackage{lab}
+ \begin{document}
+
+
+\begin{titlepage}
+\thispagestyle{fancy} %Makes page fancy
+\rhead{}
+\chead{}
+\lhead{ECGR XXXX-Section XX} %For the left header. Change this if needed
+\rfoot{}
+\cfoot{}
+\lfoot{}
+\renewcommand{\headrulewidth}{0pt} %Removes horizontal line on the header.
+    \begin{center}
+        \vspace*{1cm}
+        
+      
+       \Large\textbf{University of North Carolina at Charlotte \\[1pt]
+	Department of Electrical and Computer Engineering} \\[2pt]
+\textit{Laboratory Experiment Number\# Type Report Number Here} \\[5pt]
+\textbf{Experiment One \\[5pt]
+Experiment Two\\[5pt]
+Experiment Three\\
+}
+
+\noindent\rule{15cm}{0.4pt}
+\vfill
+        \vspace{1.5cm}
+        \textit{Laboratory Experiment Report\# ,,} \\
+		Author: First, Last\\	 %Change this part
+		Lab Partner: First, Last	\\ %Change this part
+		Date: MM/DD/YYYY \\
+        
+        \vspace{1cm}
+        
+        
+        
+        \vfill
+		\vfill
+		\vfill
+		\vfill
+        
+       \large This report was submitted in compliance with UNCC POLICY 407\\
+THE CODE OF STUDENT ACADEMIC INTEGRITY, Revised November 6, 2014
+(http://legal.uncc.edu/policies/up-407) \_INITIAL HERE\_. (Student’s Initials) 
+        \vspace{0.8cm}
+        
+    
+
+    \end{center}
+\end{titlepage}
+
+
+\section{Objectives}
+
+\subsection{Experiment 1 Title}
+Here goes the objective...
+\section{Equipment List}
+\subsection{Experiment 1 Title}
+Table \ref{EquipmentUsed} is an sample table along with a caption. I generate my tables from 
+http://www.tablesgenerator.com/. Notice that the table automatically generated a table of contents in Page \pageref{LastPage} (since we're using hyperref, if you click on that page number it will take you to the last page). If you include a Figure, it will automatically be added to the list of figures section.
+\begin{table}[ht]
+	\centering
+	\caption{Equipment Used} %Change this to caption.
+%I generate my tables from 
+	\label{EquipmentUsed}
+	\begin{tabular}{|l||l|}
+		\hline
+		\textbf{Equipment Used}       & \textbf{Equipment Manufacturer}               \\
+		\hline
+		Equipment Used & Equipment Manuf                         \\
+		\hline
+		Wave Form Generator  & Equipment Manuf                       \\
+		\hline
+		Equipment Used         & Equipment Manuf \\
+		\hline
+	\end{tabular}
+		
+\end{table}
+
+
+\section{Relevant Theory/Background Information}
+\subsection{Experiment 1 Title}
+\lipsum[1]
+Figure \ref{fig1} is an example of a figure.
+\begin{figure}[H]\label{fig1}
+	\begin{center}
+		\includegraphics[width=6cm]{fig.png}
+	\end{center}
+	\caption{Example of a figure with a caption}
+\end{figure}
+\section{Experimental Data/Analysis}
+\subsection{Experiment 1}
+\lipsum[1] %This generates the Lipsum comments
+\section{Conclusion}
+Here are websites I always references for help with \LaTeX. 
+\begin{itemize}
+\item \href{http://www.sharelatex.com}{Share LaTeX} has a good \LaTeX manual.
+\item  \href{https://tex.stackexchange.com/}{Stack Exchange}
+\end{itemize}
+
+\subsection{Experiment 1}
+\lipsum[1]
+\section{References}
+\section{List of Attachments}
+\listoffigures
+\listoftables
+
+\end{document}
